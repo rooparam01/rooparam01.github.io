@@ -239,7 +239,7 @@ body {
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  height: 120vh;
+  height: 110vh;
   padding-top: 0%;
   background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
     1200%;
@@ -277,6 +277,7 @@ body {
 #skills > div:nth-child(2) > div > div {
   width: 50%;
   padding: 3%;
+  border-radius: 20%;
 }
 
 #skills > div:nth-child(3) > div > div > div {
