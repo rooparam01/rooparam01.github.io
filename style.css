@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-#toolName {
-  text-align: center;
-  font-size: 3.48832rem;
-  font-weight: 300;
-  margin-bottom: 15px;
-}
-
 body {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
@@ -24,6 +17,9 @@ body {
 #stats {
   display: flex;
   justify-content: space-around;
+}
+#statsouter {
+  background-color: #fff;
 }
 #stats img {
   width: 100%;
@@ -66,11 +62,11 @@ body {
 }
 
 .code {
-  margin: 0;
+  padding: 2%;
   margin-bottom: 1%;
   font-size: 28px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .scrolled {
@@ -85,18 +81,10 @@ body {
 }
 
 #roopa {
-  background-color: #007266;
+  background-color: crimson;
   display: flex;
-  background: linear-gradient(
-      136deg,
-      rgb(68, 132, 206),
-      rgb(26, 215, 192),
-      rgb(255, 155, 17),
-      rgb(155, 89, 182),
-      rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
+    1200%;
 }
 .bgstyle {
   animation: BackgroundAnimation 70s ease infinite;
@@ -127,7 +115,7 @@ body {
   font-size: 5rem;
   margin: 0;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.2;
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
@@ -185,7 +173,7 @@ body {
   text-decoration: none;
 }
 #about {
-  background-color: rgb(178, 180, 182);
+  background-color: rgb(233, 236, 239);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,7 +182,7 @@ body {
 .about-me-txt {
   color: #212529;
   font-size: 3.48832rem;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0;
   margin-top: 5%;
 }
@@ -251,18 +239,10 @@ body {
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  height: 90vh;
-  padding-top: 5%;
-  background: linear-gradient(
-      136deg,
-      rgb(68, 132, 206),
-      rgb(26, 215, 192),
-      rgb(255, 155, 17),
-      rgb(155, 89, 182),
-      rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+  height: 120vh;
+  padding-top: 0%;
+  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
+    1200%;
 }
 #skills > div:nth-child(1) {
   text-align: center;
@@ -292,6 +272,11 @@ body {
 
 #skills > div:nth-child(2) > div > div:hover {
   transform: scale(1.1);
+}
+
+#skills > div:nth-child(2) > div > div {
+  width: 50%;
+  padding: 3%;
 }
 
 #skills > div:nth-child(3) > div > div > div {
@@ -415,17 +400,9 @@ body {
   font-size: small;
 }
 .project-title {
-  background-color: #007266;
-  background: linear-gradient(
-      136deg,
-      rgb(68, 132, 206),
-      rgb(26, 215, 192),
-      rgb(255, 155, 17),
-      rgb(155, 89, 182),
-      rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+  background-color: crimson;
+  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
+    1200%;
   text-align: center;
 }
 .project-title h3 {
@@ -465,33 +442,18 @@ body {
 }
 
 .project-links > a > div:hover {
-  background: linear-gradient(
-      136deg,
-      rgb(68, 132, 206),
-      rgb(26, 215, 192),
-      rgb(255, 155, 17),
-      rgb(155, 89, 182),
-      rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
+    1200%;
   color: white;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 /* footer */
 #footer {
-  background-color: #007266;
-  background: linear-gradient(
-      136deg,
-      rgb(68, 132, 206),
-      rgb(26, 215, 192),
-      rgb(255, 155, 17),
-      rgb(155, 89, 182),
-      rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+  background-color: crimson;
+  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
+    1200%;
   width: 100%;
   text-align: center;
   color: white;
@@ -533,7 +495,7 @@ body {
 .titles {
   color: rgb(33, 37, 41);
   font-size: 3.48832rem;
-  font-weight: 300;
+  font-weight: 600;
   margin: 1% 0px 0px;
 }
 .fontWhite {
@@ -761,6 +723,7 @@ body {
   #skills > div:nth-child(2) > div > div div {
     font-size: 15px;
   }
+
   .front-end {
     width: 100%;
   }
@@ -802,7 +765,7 @@ body {
   }
   #projects {
     height: auto;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(178, 180, 182);
   }
 
   .project-img {
@@ -964,12 +927,12 @@ a {
 
 .nav-link:hover,
 .nav-logo:hover {
-  color: rgb(93, 200, 200);
+  color: rgb(178, 135, 144);
 }
 
 .nav-logo {
   font-size: 2.1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
 }
 
