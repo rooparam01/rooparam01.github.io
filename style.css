@@ -39,17 +39,17 @@ body {
   }
 }
 
-#emailOrNumber {
+#contact {
   margin: auto;
   display: flex;
   justify-content: space-between;
   width: 38%;
 }
-#emailOrNumber > p {
+#contact > p {
   font-size: 12px;
 }
 @media only screen and (max-width: 768px) {
-  #emailOrNumber {
+  #contact {
     display: none;
   }
 }
@@ -80,7 +80,7 @@ body {
   background-color: transparent;
 }
 
-#roopa {
+#home {
   background-color: crimson;
   display: flex;
   background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
@@ -101,7 +101,7 @@ body {
   }
 }
 
-#roopa > .content {
+#home > .content {
   height: auto;
   width: 800px;
   margin: auto;
@@ -146,7 +146,7 @@ body {
   color: black;
 }
 
-.resume {
+.resumes {
   border: 1px solid white;
   border-radius: 10px;
   color: white;
@@ -158,11 +158,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.resume:hover {
+.resumes:hover {
   background-color: white;
   color: #2e2e2e;
 }
-.resume h3 {
+.resumes h3 {
   font-size: 22px;
   font-weight: 400;
 }
@@ -412,16 +412,16 @@ body {
   font-weight: 400;
   color: white;
 }
-.project-desc {
+.project-description {
   height: auto;
   margin-top: 6%;
   font-size: 16px;
   font-weight: 400;
 }
-.project-techstack {
+.project-tech-stack {
   margin: 0;
 }
-.project-techstack h4 {
+.project-tech-stack h4 {
   margin: 0;
   font-weight: 500;
   font-size: 1.4rem;
@@ -514,7 +514,7 @@ body {
     width: 15%;
     margin-right: 5%;
   }
-  /* roopa sectoin 1st section */
+  /*  sectoin 1st section */
   .display-1 {
     color: white;
     font-size: 3.5rem;
@@ -577,13 +577,13 @@ body {
     width: 95%;
     margin: auto;
   }
-  .project-desc {
+  .project-description {
     font-size: 13px;
     height: auto;
     margin-top: 0;
     line-height: 1.7;
   }
-  .project-techstack h4 {
+  .project-tech-stack h4 {
     font-size: 13px;
   }
   .pro_2_div {
@@ -678,10 +678,10 @@ body {
       Droid Sans, Helvetica Neue, sans-serif;
   }
 
-  .resume h3 {
+  .resumes h3 {
     font-size: 16px;
   }
-  #roopa > .content {
+  #home > .content {
     margin-top: 25%;
     margin-bottom: 10%;
   }
@@ -777,11 +777,11 @@ body {
   .project-about {
     width: 43%;
   }
-  .project-desc {
+  .project-description {
     font-size: 10px;
     height: auto;
   }
-  .project-techstack h4 {
+  .project-tech-stack h4 {
     font-size: 10px;
   }
   .pro_2_div {
@@ -809,12 +809,12 @@ body {
     width: 95%;
     margin: auto;
   }
-  .project-desc {
+  .project-description {
     font-size: 13px;
     height: auto;
     margin-top: 0;
   }
-  .project-techstack h4 {
+  .project-tech-stack h4 {
     font-size: 13px;
   }
   .pro_2_div {
@@ -885,7 +885,7 @@ a {
   border-bottom: 1px solid #e2e8f0;
 }
 
-.navbar {
+#nav-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;

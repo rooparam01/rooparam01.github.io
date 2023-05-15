@@ -14,26 +14,26 @@
   <body>
 
     <header class="header">
-      <nav class="navbar">
+      <nav id="nav-menu" >
           <a href="#" class="nav-logo"><span>Roopa Ram</span></a>
           <ul class="nav-menu">
               <li class="nav-item">
-                  <a href="#roopa" class="nav-link">Home</a>
+                  <a href="#roopa" class="nav-link home">Home</a>
               </li>
               <li class="nav-item">
-                  <a href="#about" class="nav-link">About</a>
+                  <a href="#about" class="nav-link about">About</a>
               </li>
               <li class="nav-item">
-                  <a href="#skills" class="nav-link">Skills</a>
+                  <a href="#skills" class="nav-link skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a href="#projects"class="nav-link">Projects</a>
+                <a href="#projects"class="nav-link projects">Projects</a>
               </li>
               <li class="nav-item">
-                  <a href="#footer" class="nav-link">Contacts</a>
+                  <a href="#footer" class="nav-link contact">Contacts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href="./download/Roopa_Ram_Resume.pdf" download="Roopa_Ram_Resume" id="Drivegoogle">Resume</a>
+                <a id="resume-link-2" class="nav-link resume" target="_blank" href="./download/Roopa_Ram_Resume.pdf" download="Roopa_Ram_Resume" id="Drivegoogle">Resume</a>
             </li>
           </ul>
           <div class="hamburger">
@@ -44,9 +44,9 @@
       </nav>
 </header>
 
-    <div id="roopa" class="bgstyle">
+    <div id="home" class="bgstyle">
       <div class="content">
-        <h1 class="display-1">Roopa Ram</h1>
+        <h1 class="display-1"  id="user-detail-name">Roopa Ram</h1>
         <p class="typist">
           Inspiring Success through Continuous Learning and Collaborative Solutions
         </p>
@@ -72,21 +72,21 @@
             aria-label="My Mail"
             ><i class="fa-solid fa-envelope fa-3x"></i></a>
         </div>
-        <a class="resume-link"  target="_blank" href="./download/Roopa_Ram_Resume.pdf" download="Roopa_Ram_Resume" id="Drivenew">
+        <a id="resume-link-1" class="resume-link"  target="_blank" href="./download/Roopa_Ram_Resume.pdf" download="Roopa_Ram_Resume" id="Drivenew">
 
-          <div class="resume">
+          <div class="resumes">
           <h3>Resume</h3>
           </div>
 </a>
       </div>
     </div>
-    <div id="about">
+    <div id="about" class="about section">
       <h2 class="about-me-txt">About Me</h2>
       <div class="about-box">
-        <img src="./images/document/roopa.jpg" alt="Roopa Ram" />
+        <img class="home-img" src="./images/document/roopa.jpg" alt="Roopa Ram" />
         <div>
           <h2><span class="hi"> I'm </span> Roopa Ram</h2>
-          <p>
+          <p id="user-detail-intro">
             I am a backend Java developer with a passion for continuous learning and a collaborative approach. With strong problem-solving skills and a self-taught background, I am excited about the opportunity to work on significant projects. I bring a positive attitude and a willingness to work with others to achieve shared goals. I am confident that I can make a meaningful contribution to any project and help drive success.
           </p>
         </div>
@@ -98,16 +98,16 @@
       <div>
         <div class="front-end">
           <h2>Front-end Skills</h2>
-          <div class="paa"><div><img src="./images/icons/html.jpg" alt="">HTML 5</div></div>
-          <div><div><img src="./images/icons/css.png" alt="">CSS 3</div></div>
-          <div><div><img src="./images/icons/js.jpg" alt=""></i>JAVASCRIPT</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/html.jpg" alt="">HTML 5</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/css.png" alt="">CSS 3</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/js.jpg" alt=""></i>JAVASCRIPT</div></div>
         </div>
         <div class="back-end">
           <h2>Back-end Skills</h2>
-          <div><div><img src="./images/icons/java.jpg" alt="">JAVA</div></div>
-          <div><div><img src="./images/icons/mysql.png" alt=""></i>MySQL</div></div>
-          <div><div><img src="./images/icons/hibernate logo.png" alt="">Hibernate</div></div>
-          <div><div><img src="./images/icons/spring.png" alt="">Spring</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/java.jpg" alt="">JAVA</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/mysql.png" alt=""></i>MySQL</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/hibernate logo.png" alt="">Hibernate</div></div>
+          <div class="skills-card"><div class="skills-card-name"><img class="skills-card-img" src="./images/icons/spring.png" alt="">Spring</div></div>
           
         </div>
       </div>
@@ -119,11 +119,11 @@
     <div id="projects">
       <div class="pro_1_div"><h2 class="titles">Projects</h2></div>
       <div class="pro_2_div">
-        <div class="project1">
+        <div class="project1" class="project-card">
           <img class="project-img overlay" src="./images/document/StudentmanagementSystem.png" alt="StudentmanagementSystem" />
           <div class="project-about">
             <div class="project-title"><h3>Student Management System</h3></div>
-            <div class="project-desc">
+            <div class="project-description">
               <p>
                 This is a console based java application that Maintain Student registration system.  
               </p>
@@ -132,12 +132,13 @@
              
             </div>
             <br>
-            <div class="project-techstack">
+            <div class="project-tech-stack">
               <h4>Tech Stack : Core Java </h4>
             </div>
             <div class="project-links">
-              <a href="https://github.com/rooparam01/Automated-Student-Management-System" target="_blank"><div><i class="fa-brands fa-github"></i> Github</div></a>
-              <a href="https://drive.google.com/file/d/1FhCoXO_EyQQGAPlvUJumwCmL3fdeguog/view?usp=sharing" target="_blank"><div><i class="fa-solid fa-eye"></i> Video</div></a>
+              <a class="project-github-link" href="https://github.com/rooparam01/Automated-Student-Management-System" target="_blank"><div><i class="fa-brands fa-github"></i> Github</div></a>
+              <a 
+              class="project-deployed-link" href="https://drive.google.com/file/d/1FhCoXO_EyQQGAPlvUJumwCmL3fdeguog/view?usp=sharing" target="_blank"><div><i class="fa-solid fa-eye"></i> Video</div></a>
             </div>
           </div>
         </div>
@@ -148,18 +149,18 @@
     <!-- github stats -->
 <div id="statsouter">
     <h2 class="code">Github Stats</h2>
-    <div id="stats">
+    <div id="github-stats-card" id="stats">
 
-      <div><img src="https://github-readme-stats.vercel.app/api?username=rooparam01&show_icons=true&theme=dark&locale=en" alt=""></div>
+      <div><img id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=rooparam01&show_icons=true&theme=dark&locale=en" alt=""></div>
 <div>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rooparam01&theme=dark&" alt="">
+  <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rooparam01&theme=dark&" alt="">
 </div>
     </div>
 
     <div id="github">
 
     <h2 class="code">GitHub Calendar</h2>
-    <div class="calendar">
+    <div class="react-activity-calendar" class="calendar">
       Loading stuff
       Loading the data just for you.
     </div>
@@ -169,13 +170,13 @@
     <div id="footer">
       <h2 class="titles fontWhite">Get In Touch</h2>
       <div class="links">   
-        <a target="_blank" href="https://www.linkedin.com/in/roopa-ram-b5335613a/"><i class="fa-brands fa-linkedin"></i></a>
-        <a target="_blank" href="mailto:rrjakher@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-        <a target="_blank" href="https://github.com/rooparam01"><i class="fa-brands fa-github"></i></a>
-        <a target="_blank" href="tel:9462045569"><i class="fa-solid fa-phone"></i></a>
+        <a id="contact-linkedin" target="_blank" href="https://www.linkedin.com/in/roopa-ram-b5335613a/"><i class="fa-brands fa-linkedin"></i></a>
+        <a  id="contact-email" target="_blank" href="mailto:rrjakher@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a  id="contact-github" target="_blank" href="https://github.com/rooparam01"><i class="fa-brands fa-github"></i></a>
+        <a id="contact-phone" target="_blank" href="tel:9462045569"><i class="fa-solid fa-phone"></i></a>
       </div>
 
-      <div id="emailOrNumber">
+      <div id="contact">
         <p>rooparam</p>
         <p style="margin-left: 15px;" >rrjakher@gmail.com</p>
         <p style="margin-right: 10px;">rooparam01</p>
