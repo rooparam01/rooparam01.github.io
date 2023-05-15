@@ -1,9 +1,9 @@
 let drive = document
-  .querySelector("#Drivegoogle")
+  .querySelector("#resume-link-2")
   .addEventListener("click", openDrive);
 
 let drive1 = document
-  .querySelector("#Drivenew")
+  .querySelector("#resume-link-1")
   .addEventListener("click", openDrive);
 
 function openDrive() {
