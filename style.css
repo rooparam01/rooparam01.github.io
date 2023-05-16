@@ -185,6 +185,9 @@ body {
   margin: 0;
   margin-top: 5%;
 }
+#user-detail-intro {
+  line-height: 30px;
+}
 .hi {
   color: #2e2e2e;
   font-size: 24px;
