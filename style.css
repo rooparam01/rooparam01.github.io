@@ -83,7 +83,7 @@ body {
 #home {
   background-color: #fd5c63;
   display: flex;
-  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
+  background: linear-gradient(136deg, #fd5c63) 0% 0% / 1200% 1200%;
 }
 .bgstyle {
   animation: BackgroundAnimation 70s ease infinite;
@@ -273,7 +273,7 @@ body {
 }
 
 #skills > div:nth-child(2) > div > div {
-  width: 50%;
+  width: 65%;
   padding: 3%;
   border-radius: 20%;
 }
