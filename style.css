@@ -239,8 +239,8 @@ body {
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  height: 110vh;
-  padding-top: 0%;
+  height: 90vh;
+  padding: 0;
   background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
     1200%;
 }
@@ -258,7 +258,7 @@ body {
 #skills > div:nth-child(2) > div > div {
   transition: all 500ms;
   padding: 0;
-  width: 60%;
+  width: 65%;
   margin: auto;
   margin-top: 3%;
 }
@@ -534,6 +534,9 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
       Droid Sans, Helvetica Neue, sans-serif;
   }
+  #skills {
+    height: 150vh;
+  }
   #skills > div:nth-child(1) {
     padding-top: 2%;
   }
@@ -543,6 +546,10 @@ body {
   #skills > div:nth-child(2) > div > div div {
     font-size: 20px;
   }
+  #skills > div:nth-child(2) > div {
+    height: 10%;
+  }
+
   .front-end {
     width: 100%;
   }
@@ -717,7 +724,9 @@ body {
     flex-direction: column;
     gap: 15%;
   }
-
+  #skills {
+    height: 120vh;
+  }
   #skills > div:nth-child(2) {
     display: block;
   }
