@@ -81,10 +81,9 @@ body {
 }
 
 #home {
-  background-color: crimson;
+  background-color: #fd5c63;
   display: flex;
-  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
-    1200%;
+  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
 }
 .bgstyle {
   animation: BackgroundAnimation 70s ease infinite;
@@ -241,8 +240,7 @@ body {
   background-color: rgb(85, 125, 165);
   height: 90vh;
   padding: 0;
-  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
-    1200%;
+  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
 }
 #skills > div:nth-child(1) {
   text-align: center;
@@ -401,9 +399,8 @@ body {
   font-size: small;
 }
 .project-title {
-  background-color: crimson;
-  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
-    1200%;
+  background-color: #fd5c63;
+  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
   text-align: center;
 }
 .project-title h3 {
@@ -443,8 +440,7 @@ body {
 }
 
 .project-links > a > div:hover {
-  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
-    1200%;
+  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
   color: white;
   cursor: pointer;
   border-radius: 20px;
@@ -452,9 +448,8 @@ body {
 
 /* footer */
 #footer {
-  background-color: crimson;
-  background: linear-gradient(136deg, crimson, rgb(255, 127, 127)) 0% 0% / 1200%
-    1200%;
+  background-color: #fd5c63;
+  background: linear-gradient(136deg, #fd5c63, #de3163) 0% 0% / 1200% 1200%;
   width: 100%;
   text-align: center;
   color: white;
