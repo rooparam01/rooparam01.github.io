@@ -1,24 +1,17 @@
-let resume_btn2 = document.querySelector("#resume-button-2");
+let drive = document
+  .querySelector("#resume-button-2")
+  .addEventListener("click", openDrive);
 
-let resume_btn1 = document.querySelector("#resume-button-1");
+let drive1 = document
+  .querySelector("#resume-button-1")
+  .addEventListener("click", openDrive);
 
-resume_btn1.addEventListener("click", (e) => {
-  e.preventDefault();
+function openDrive() {
   window.open(
-    "https://drive.google.com/file/d/17e1Xp0lcDd_iPcSahRMAbHVOLrE0xl7-/view?usp=sharing"
+    (href =
+      "https://drive.google.com/file/d/17e1Xp0lcDd_iPcSahRMAbHVOLrE0xl7-/view?usp=sharing")
   );
-  window.location.href =
-    "https://drive.google.com/file/d/17e1Xp0lcDd_iPcSahRMAbHVOLrE0xl7-/view?usp=sharing";
-});
-
-resume_btn2.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.open(
-    "https://drive.google.com/file/d/17e1Xp0lcDd_iPcSahRMAbHVOLrE0xl7-/view?usp=sharing"
-  );
-  window.location.href =
-    "https://drive.google.com/file/d/17e1Xp0lcDd_iPcSahRMAbHVOLrE0xl7-/view?usp=sharing";
-});
+}
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
